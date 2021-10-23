@@ -1,0 +1,48 @@
+.crew-container {
+  background-image: url("../../public/assets/crew/background-crew-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .image-container {
+    width: 87.2vw;
+    height: auto;
+    border-bottom: 1px solid white;
+  }
+  .toggles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    .toggle {
+      width: 10px;
+      aspect-ratio: 1;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #ffffff17;
+      &.active {
+        background-color: #ffffff;
+      }
+    }
+  }
+  .crew-info {
+    text-align: center;
+    .bio {
+      padding-inline: 6%;
+    }
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .crew-container {
+    background-image: url("../../public/assets/crew/background-crew-tablet.jpg");
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .crew-container {
+    background-image: url("../../public/assets/crew/background-crew-desktop.jpg");
+  }
+}

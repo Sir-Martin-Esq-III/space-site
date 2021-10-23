@@ -1,0 +1,81 @@
+.destinations-page {
+  background-image: url("../../public/assets/destination/background-destination-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.destinations-page .pic {
+  width: 45vw;
+  height: auto;
+}
+
+.destinations-page .selection-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 63%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.destinations-page .selection-menu .menu-item.active {
+  border-bottom: 2px solid white;
+  font-weight: bold;
+}
+
+.destinations-page .planet-info {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.destinations-page .planet-info .desc {
+  margin-inline: 6%;
+  border-bottom: 1px solid white;
+}
+
+@media screen and (min-width: 425px) {
+  .destinations-page {
+    background-image: url("../../public/assets/destination/background-destination-tablet.jpg");
+  }
+  .destinations-page .facts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-page {
+    background-image: url("../../public/assets/destination/background-destination-desktop.jpg");
+  }
+}
+/*# sourceMappingURL=index.css.map */
